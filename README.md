@@ -5,7 +5,7 @@ Short notes on things I figure out while building with LLMs: agents, tool callin
 Each note is one small finding: the problem, the fix and a snippet. This README is rebuilt automatically on every push.
 
 <!-- index starts -->
-**9 notes so far.**
+**13 notes so far.**
 
 ## Most recent
 
@@ -25,6 +25,13 @@ Each note is one small finding: the problem, the fix and a snippet. This README 
 - [A reviewer agent that only opens a PR after a checklist passes](agents/reviewer-agent-validated-prs.md) · 2025
 - [One chat agent, different tools per user role](agents/role-based-tool-access.md) · 2025
 - [Letting code resolve targets after the model extracts actions](agents/structured-actions-resolved-in-code.md) · 2025
+
+## evals
+
+- [Dropping invented facts with a post-generation code check](evals/code-checks-for-invented-facts.md) · 2025
+- [Re-running a live phrase suite before shipping an agent](evals/live-phrase-checks.md) · 2025
+- [Scoring free-text answers with a rubric and an LLM grader](evals/rubric-scoring-with-an-llm-grader.md) · 2025
+- [Comparing a commercial model to an open-weight one with rule-based checks](evals/rule-based-eval-open-vs-commercial.md) · 2025
 
 ## self-hosting
 
