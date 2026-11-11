@@ -7,7 +7,7 @@ Each note is one small finding: the problem, the fix and a snippet. This README 
 <!-- index starts -->
 **1 note so far.**
 
-## Latest
+## Most recent
 
 - [Getting reliable JSON out of a self-hosted model on vLLM](self-hosting/structured-json-from-vllm.md) · self-hosting · 2026-11-11
 
