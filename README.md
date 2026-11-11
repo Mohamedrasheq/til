@@ -5,11 +5,26 @@ Short notes on things I figure out while building with LLMs: agents, tool callin
 Each note is one small finding: the problem, the fix and a snippet. This README is rebuilt automatically on every push.
 
 <!-- index starts -->
-**1 note so far.**
+**9 notes so far.**
 
 ## Most recent
 
-- [Getting reliable JSON out of a self-hosted model on vLLM](self-hosting/structured-json-from-vllm.md) · self-hosting · 2025
+- [Asking a clarifying question instead of guessing a date or target](agents/ask-instead-of-guess.md) · agents · 2025
+- [Cancelling in-flight agent work when the user keeps talking](agents/cancel-stale-requests.md) · agents · 2025
+- [Classifying the message before picking a model](agents/classify-then-route.md) · agents · 2025
+- [Confirming every write before the tool actually runs](agents/confirm-writes-before-tool-calls.md) · agents · 2025
+- [Returning interactive cards from an agent instead of plain text](agents/dynamic-cards-in-chat.md) · agents · 2025
+
+## agents
+
+- [Asking a clarifying question instead of guessing a date or target](agents/ask-instead-of-guess.md) · 2025
+- [Cancelling in-flight agent work when the user keeps talking](agents/cancel-stale-requests.md) · 2025
+- [Classifying the message before picking a model](agents/classify-then-route.md) · 2025
+- [Confirming every write before the tool actually runs](agents/confirm-writes-before-tool-calls.md) · 2025
+- [Returning interactive cards from an agent instead of plain text](agents/dynamic-cards-in-chat.md) · 2025
+- [A reviewer agent that only opens a PR after a checklist passes](agents/reviewer-agent-validated-prs.md) · 2025
+- [One chat agent, different tools per user role](agents/role-based-tool-access.md) · 2025
+- [Letting code resolve targets after the model extracts actions](agents/structured-actions-resolved-in-code.md) · 2025
 
 ## self-hosting
 
