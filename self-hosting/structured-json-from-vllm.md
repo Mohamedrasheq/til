@@ -1,5 +1,7 @@
 # Getting reliable JSON out of a self-hosted model on vLLM
 
+_Learned: 2025_
+
 **The problem:** asking an open-weight model for JSON in the prompt works most of the time, but every so often it adds prose or breaks the shape, and the parser fails.
 
 **What worked:** vLLM's OpenAI-compatible server can constrain decoding to a JSON schema, so the model can only produce tokens that fit it. You keep using the normal OpenAI client and pass `response_format`.
