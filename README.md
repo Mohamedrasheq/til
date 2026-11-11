@@ -5,7 +5,7 @@ Short notes on things I figure out while building with LLMs: agents, tool callin
 Each note is one small finding: the problem, the fix and a snippet. This README is rebuilt automatically on every push.
 
 <!-- index starts -->
-**20 notes so far.**
+**23 notes so far.**
 
 ## Most recent
 
@@ -48,6 +48,9 @@ Each note is one small finding: the problem, the fix and a snippet. This README 
 
 ## self-hosting
 
+- [When I'd use Ollama vs vLLM](self-hosting/ollama-vs-vllm.md) · 2025
+- [Prompt-tuning a smaller open model against a commercial baseline](self-hosting/prompt-tuning-open-models.md) · 2025
+- [Scale-to-zero serverless GPU: living with cold starts](self-hosting/scale-to-zero-serverless-gpu.md) · 2025
 - [Getting reliable JSON out of a self-hosted model on vLLM](self-hosting/structured-json-from-vllm.md) · 2025
 
 <!-- index ends -->
