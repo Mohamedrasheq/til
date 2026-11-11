@@ -5,7 +5,7 @@ Short notes on things I figure out while building with LLMs: agents, tool callin
 Each note is one small finding: the problem, the fix and a snippet. This README is rebuilt automatically on every push.
 
 <!-- index starts -->
-**23 notes so far.**
+**28 notes so far.**
 
 ## Most recent
 
@@ -52,5 +52,13 @@ Each note is one small finding: the problem, the fix and a snippet. This README 
 - [Prompt-tuning a smaller open model against a commercial baseline](self-hosting/prompt-tuning-open-models.md) · 2025
 - [Scale-to-zero serverless GPU: living with cold starts](self-hosting/scale-to-zero-serverless-gpu.md) · 2025
 - [Getting reliable JSON out of a self-hosted model on vLLM](self-hosting/structured-json-from-vllm.md) · 2025
+
+## vision
+
+- [Detecting key movement events from pose landmarks](vision/detecting-events-from-pose-landmarks.md) · 2025
+- [Measuring joint angles from MediaPipe world landmarks](vision/joint-angles-from-mediapipe.md) · 2025
+- [Pose estimation in the browser vs on a serverless GPU](vision/pose-in-the-browser-vs-gpu.md) · 2025
+- [Locking onto one person with re-identification tracking](vision/reid-tracking-in-multi-person-video.md) · 2025
+- [Turning vision metrics into a structured, safety-checked LLM report](vision/structured-llm-reports-from-vision-metrics.md) · 2025
 
 <!-- index ends -->
