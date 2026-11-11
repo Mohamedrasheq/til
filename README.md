@@ -9,10 +9,10 @@ Each note is one small finding: the problem, the fix and a snippet. This README 
 
 ## Most recent
 
-- [Getting reliable JSON out of a self-hosted model on vLLM](self-hosting/structured-json-from-vllm.md) · self-hosting · 2026-11-11
+- [Getting reliable JSON out of a self-hosted model on vLLM](self-hosting/structured-json-from-vllm.md) · self-hosting · 2025
 
 ## self-hosting
 
-- [Getting reliable JSON out of a self-hosted model on vLLM](self-hosting/structured-json-from-vllm.md) · 2026-11-11
+- [Getting reliable JSON out of a self-hosted model on vLLM](self-hosting/structured-json-from-vllm.md) · 2025
 
 <!-- index ends -->
