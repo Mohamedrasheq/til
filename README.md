@@ -5,7 +5,7 @@ Short notes on things I figure out while building with LLMs: agents, tool callin
 Each note is one small finding: the problem, the fix and a snippet. This README is rebuilt automatically on every push.
 
 <!-- index starts -->
-**28 notes so far.**
+**31 notes so far.**
 
 ## Most recent
 
@@ -60,5 +60,11 @@ Each note is one small finding: the problem, the fix and a snippet. This README 
 - [Pose estimation in the browser vs on a serverless GPU](vision/pose-in-the-browser-vs-gpu.md) · 2025
 - [Locking onto one person with re-identification tracking](vision/reid-tracking-in-multi-person-video.md) · 2025
 - [Turning vision metrics into a structured, safety-checked LLM report](vision/structured-llm-reports-from-vision-metrics.md) · 2025
+
+## voice
+
+- [Ignoring background noise and garbled speech before the agent replies](voice/ignoring-noise-and-garbled-speech.md) · 2025
+- [Carrying per-user memory across voice sessions](voice/per-user-memory-across-voice-sessions.md) · 2025
+- [Streaming STT and TTS so a voice agent doesn't pause mid-reply](voice/streaming-stt-tts-without-gaps.md) · 2025
 
 <!-- index ends -->
