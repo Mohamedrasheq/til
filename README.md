@@ -5,15 +5,15 @@ Short notes on things I figure out while building with LLMs: agents, tool callin
 Each note is one small finding: the problem, the fix and a snippet. This README is rebuilt automatically on every push.
 
 <!-- index starts -->
-**31 notes so far.**
+**37 notes so far.**
 
 ## Most recent
 
-- [Asking a clarifying question instead of guessing a date or target](agents/ask-instead-of-guess.md) · agents · 2025
-- [Cancelling in-flight agent work when the user keeps talking](agents/cancel-stale-requests.md) · agents · 2025
-- [Classifying the message before picking a model](agents/classify-then-route.md) · agents · 2025
-- [Confirming every write before the tool actually runs](agents/confirm-writes-before-tool-calls.md) · agents · 2025
-- [Returning interactive cards from an agent instead of plain text](agents/dynamic-cards-in-chat.md) · agents · 2025
+- [A fresh test set from a different AI showed my 99% was really 91%](evals/a-fresh-test-set-from-a-different-ai.md) · evals · 2026-11-16
+- [Using the model's own doubts to find wrong labels](fine-tuning/finding-label-noise-with-the-model.md) · fine-tuning · 2026-11-16
+- [Freezing the validation and test sets between training runs](fine-tuning/freeze-val-and-test-between-runs.md) · fine-tuning · 2026-11-16
+- [Masking links made my scam detector blind to fake domains](fine-tuning/masking-can-hide-the-clue.md) · fine-tuning · 2026-11-16
+- [Synthetic data teaches, real data judges](fine-tuning/synthetic-data-for-training-only.md) · fine-tuning · 2026-11-16
 
 ## agents
 
@@ -32,11 +32,20 @@ Each note is one small finding: the problem, the fix and a snippet. This README 
 - [Re-running a live phrase suite before shipping an agent](evals/live-phrase-checks.md) · 2025
 - [Scoring free-text answers with a rubric and an LLM grader](evals/rubric-scoring-with-an-llm-grader.md) · 2025
 - [Comparing a commercial model to an open-weight one with rule-based checks](evals/rule-based-eval-open-vs-commercial.md) · 2025
+- [A fresh test set from a different AI showed my 99% was really 91%](evals/a-fresh-test-set-from-a-different-ai.md) · 2026-11-16
 
 ## extraction
 
 - [Sending low-confidence fields to human review instead of guessing](extraction/human-review-for-low-confidence-fields.md) · 2025
 - [Schema-driven extraction with a confidence score per field](extraction/schema-extraction-with-confidence.md) · 2025
+
+## fine-tuning
+
+- [Full fine-tuning a small BERT model into a text classifier](fine-tuning/full-fine-tuning-a-small-classifier.md) · 2026-11-12
+- [Using the model's own doubts to find wrong labels](fine-tuning/finding-label-noise-with-the-model.md) · 2026-11-16
+- [Freezing the validation and test sets between training runs](fine-tuning/freeze-val-and-test-between-runs.md) · 2026-11-16
+- [Masking links made my scam detector blind to fake domains](fine-tuning/masking-can-hide-the-clue.md) · 2026-11-16
+- [Synthetic data teaches, real data judges](fine-tuning/synthetic-data-for-training-only.md) · 2026-11-16
 
 ## rag
 
