@@ -5,15 +5,15 @@ Short notes on things I figure out while building with LLMs: agents, tool callin
 Each note is one small finding: the problem, the fix and a snippet. This README is rebuilt automatically on every push.
 
 <!-- index starts -->
-**37 notes so far.**
+**43 notes so far.**
 
 ## Most recent
 
-- [A fresh test set from a different AI showed my 99% was really 91%](evals/a-fresh-test-set-from-a-different-ai.md) · evals · 2026-11-16
-- [Using the model's own doubts to find wrong labels](fine-tuning/finding-label-noise-with-the-model.md) · fine-tuning · 2026-11-16
-- [Freezing the validation and test sets between training runs](fine-tuning/freeze-val-and-test-between-runs.md) · fine-tuning · 2026-11-16
-- [Masking links made my scam detector blind to fake domains](fine-tuning/masking-can-hide-the-clue.md) · fine-tuning · 2026-11-16
-- [Synthetic data teaches, real data judges](fine-tuning/synthetic-data-for-training-only.md) · fine-tuning · 2026-11-16
+- [Choosing a BPE vocabulary size for a tiny dataset](training/bpe-vocab-size-for-a-tiny-dataset.md) · training · 2026-11-19
+- [Keeping the best checkpoint, not the last one](training/keep-the-best-checkpoint-not-the-last.md) · training · 2026-11-19
+- [Reading perplexity as "how many choices the model is torn between"](training/perplexity-as-number-of-choices.md) · training · 2026-11-19
+- [Scoring the test set in one fixed pass, then explaining the gap](training/score-the-test-set-in-one-fixed-pass.md) · training · 2026-11-19
+- [Splitting a text corpus by position, not by random lines](training/split-a-text-corpus-by-position.md) · training · 2026-11-19
 
 ## agents
 
@@ -61,6 +61,15 @@ Each note is one small finding: the problem, the fix and a snippet. This README 
 - [Prompt-tuning a smaller open model against a commercial baseline](self-hosting/prompt-tuning-open-models.md) · 2025
 - [Scale-to-zero serverless GPU: living with cold starts](self-hosting/scale-to-zero-serverless-gpu.md) · 2025
 - [Getting reliable JSON out of a self-hosted model on vLLM](self-hosting/structured-json-from-vllm.md) · 2025
+
+## training
+
+- [Choosing a BPE vocabulary size for a tiny dataset](training/bpe-vocab-size-for-a-tiny-dataset.md) · 2026-11-19
+- [Keeping the best checkpoint, not the last one](training/keep-the-best-checkpoint-not-the-last.md) · 2026-11-19
+- [Reading perplexity as "how many choices the model is torn between"](training/perplexity-as-number-of-choices.md) · 2026-11-19
+- [Scoring the test set in one fixed pass, then explaining the gap](training/score-the-test-set-in-one-fixed-pass.md) · 2026-11-19
+- [Splitting a text corpus by position, not by random lines](training/split-a-text-corpus-by-position.md) · 2026-11-19
+- [Temperature and top-k when sampling from a small model](training/temperature-and-top-k.md) · 2026-11-19
 
 ## vision
 
