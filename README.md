@@ -5,15 +5,15 @@ Short notes on things I figure out while building with LLMs: agents, tool callin
 Each note is one small finding: the problem, the fix and a snippet. This README is rebuilt automatically on every push.
 
 <!-- index starts -->
-**43 notes so far.**
+**46 notes so far.**
 
 ## Most recent
 
+- [One pass over a big dataset: train and val stay together](training/one-pass-over-a-big-dataset.md) · training · 2026-11-20
 - [Choosing a BPE vocabulary size for a tiny dataset](training/bpe-vocab-size-for-a-tiny-dataset.md) · training · 2026-11-19
+- [Learning and applying BPE on 2 GB of text in plain Python](training/fast-bpe-on-gigabytes-in-plain-python.md) · training · 2026-11-19
 - [Keeping the best checkpoint, not the last one](training/keep-the-best-checkpoint-not-the-last.md) · training · 2026-11-19
 - [Reading perplexity as "how many choices the model is torn between"](training/perplexity-as-number-of-choices.md) · training · 2026-11-19
-- [Scoring the test set in one fixed pass, then explaining the gap](training/score-the-test-set-in-one-fixed-pass.md) · training · 2026-11-19
-- [Splitting a text corpus by position, not by random lines](training/split-a-text-corpus-by-position.md) · training · 2026-11-19
 
 ## agents
 
@@ -65,11 +65,14 @@ Each note is one small finding: the problem, the fix and a snippet. This README 
 ## training
 
 - [Choosing a BPE vocabulary size for a tiny dataset](training/bpe-vocab-size-for-a-tiny-dataset.md) · 2026-11-19
+- [Learning and applying BPE on 2 GB of text in plain Python](training/fast-bpe-on-gigabytes-in-plain-python.md) · 2026-11-19
 - [Keeping the best checkpoint, not the last one](training/keep-the-best-checkpoint-not-the-last.md) · 2026-11-19
 - [Reading perplexity as "how many choices the model is torn between"](training/perplexity-as-number-of-choices.md) · 2026-11-19
 - [Scoring the test set in one fixed pass, then explaining the gap](training/score-the-test-set-in-one-fixed-pass.md) · 2026-11-19
 - [Splitting a text corpus by position, not by random lines](training/split-a-text-corpus-by-position.md) · 2026-11-19
 - [Temperature and top-k when sampling from a small model](training/temperature-and-top-k.md) · 2026-11-19
+- [Word pieces need more data than characters](training/word-pieces-need-more-data.md) · 2026-11-19
+- [One pass over a big dataset: train and val stay together](training/one-pass-over-a-big-dataset.md) · 2026-11-20
 
 ## vision
 
