@@ -5,15 +5,15 @@ Short notes on things I figure out while building with LLMs: agents, tool callin
 Each note is one small finding: the problem, the fix and a snippet. This README is rebuilt automatically on every push.
 
 <!-- index starts -->
-**46 notes so far.**
+**56 notes so far.**
 
 ## Most recent
 
-- [One pass over a big dataset: train and val stay together](training/one-pass-over-a-big-dataset.md) · training · 2026-11-20
-- [Choosing a BPE vocabulary size for a tiny dataset](training/bpe-vocab-size-for-a-tiny-dataset.md) · training · 2026-11-19
-- [Learning and applying BPE on 2 GB of text in plain Python](training/fast-bpe-on-gigabytes-in-plain-python.md) · training · 2026-11-19
-- [Keeping the best checkpoint, not the last one](training/keep-the-best-checkpoint-not-the-last.md) · training · 2026-11-19
-- [Reading perplexity as "how many choices the model is torn between"](training/perplexity-as-number-of-choices.md) · training · 2026-11-19
+- [A training run on a cloud notebook that survives a disconnect](training/resumable-training-on-a-cloud-notebook.md) · training · 2026-11-21
+- [A 10% share of the old data keeps the old skill](training/small-share-of-old-data-keeps-a-skill.md) · training · 2026-11-21
+- [Comparing loss across models with different tokenizers](evals/loss-per-character-across-tokenizers.md) · evals · 2026-11-20
+- [Testing a language model's grammar with minimal pairs](evals/minimal-pairs-grammar-test.md) · evals · 2026-11-20
+- [Scoring a base model on multiple-choice tests without generating text](evals/multiple-choice-by-log-prob.md) · evals · 2026-11-20
 
 ## agents
 
@@ -33,6 +33,9 @@ Each note is one small finding: the problem, the fix and a snippet. This README 
 - [Scoring free-text answers with a rubric and an LLM grader](evals/rubric-scoring-with-an-llm-grader.md) · 2025
 - [Comparing a commercial model to an open-weight one with rule-based checks](evals/rule-based-eval-open-vs-commercial.md) · 2025
 - [A fresh test set from a different AI showed my 99% was really 91%](evals/a-fresh-test-set-from-a-different-ai.md) · 2026-11-16
+- [Comparing loss across models with different tokenizers](evals/loss-per-character-across-tokenizers.md) · 2026-11-20
+- [Testing a language model's grammar with minimal pairs](evals/minimal-pairs-grammar-test.md) · 2026-11-20
+- [Scoring a base model on multiple-choice tests without generating text](evals/multiple-choice-by-log-prob.md) · 2026-11-20
 
 ## extraction
 
@@ -72,7 +75,14 @@ Each note is one small finding: the problem, the fix and a snippet. This README 
 - [Splitting a text corpus by position, not by random lines](training/split-a-text-corpus-by-position.md) · 2026-11-19
 - [Temperature and top-k when sampling from a small model](training/temperature-and-top-k.md) · 2026-11-19
 - [Word pieces need more data than characters](training/word-pieces-need-more-data.md) · 2026-11-19
+- [bf16 mixed precision is not quantization](training/bf16-mixed-precision.md) · 2026-11-20
+- [Pool.imap reads ahead the whole input: feed it in small groups](training/bounded-multiprocessing-for-big-files.md) · 2026-11-20
+- [Checking whether a tokenizer fits new data before training on it](training/check-tokenizer-fit-on-new-data.md) · 2026-11-20
 - [One pass over a big dataset: train and val stay together](training/one-pass-over-a-big-dataset.md) · 2026-11-20
+- [RoPE, SwiGLU and RMSNorm: the three upgrades to a GPT-2 style block](training/rope-swiglu-rmsnorm.md) · 2026-11-20
+- [Sizing a training run with tokens per parameter](training/tokens-per-parameter.md) · 2026-11-20
+- [A training run on a cloud notebook that survives a disconnect](training/resumable-training-on-a-cloud-notebook.md) · 2026-11-21
+- [A 10% share of the old data keeps the old skill](training/small-share-of-old-data-keeps-a-skill.md) · 2026-11-21
 
 ## vision
 
