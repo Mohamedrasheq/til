@@ -17,4 +17,4 @@ Two scores are standard. `acc` uses the total log-probability, which favours sho
 
 **Why it matters:** a base model can be compared on the same tests as released models from day one, before any instruction tuning.
 
-Links: [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness), [mini-gpt/step09c_benchmarks.py](https://github.com/Mohamedrasheq/mini-gpt/blob/main/step09c_benchmarks.py)
+Links: [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness), [mini-gpt/step09c_benchmarks.py](https://github.com/Mohamedrasheq/mini-gpt/blob/v1.1.0/step09c_benchmarks.py)

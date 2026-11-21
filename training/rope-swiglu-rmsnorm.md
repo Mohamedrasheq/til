@@ -21,4 +21,4 @@ norm = nn.RMSNorm(n_embd)
 
 **Why it matters:** each is a small gain on its own, and together they're the default block in recent small models. The biggest jump in my run still came from better data, not from these.
 
-Links: [RoFormer (RoPE)](https://arxiv.org/abs/2104.09864), [GLU variants (SwiGLU)](https://arxiv.org/abs/2002.05202), [RMSNorm](https://arxiv.org/abs/1910.07467), [mini-gpt/step10_model.py](https://github.com/Mohamedrasheq/mini-gpt/blob/main/step10_model.py)
+Links: [RoFormer (RoPE)](https://arxiv.org/abs/2104.09864), [GLU variants (SwiGLU)](https://arxiv.org/abs/2002.05202), [RMSNorm](https://arxiv.org/abs/1910.07467), [mini-gpt/step10_model.py](https://github.com/Mohamedrasheq/mini-gpt/blob/v1.1.0/step10_model.py)

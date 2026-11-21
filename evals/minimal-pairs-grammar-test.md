@@ -16,4 +16,4 @@ The per-area breakdown was the useful part. My 12M TinyStories model scored 60.4
 
 **Why it matters:** a minimal-pairs test isolates one skill at a time, so a low score points to what the training data is missing.
 
-Links: [BLiMP](https://github.com/alexwarstadt/blimp), [mini-gpt/step09_blimp.py](https://github.com/Mohamedrasheq/mini-gpt/blob/main/step09_blimp.py)
+Links: [BLiMP](https://github.com/alexwarstadt/blimp), [mini-gpt/step09_blimp.py](https://github.com/Mohamedrasheq/mini-gpt/blob/v1.1.0/step09_blimp.py)

@@ -22,4 +22,4 @@ Prompt `ROMEO:`, same seed:
 
 **Why it matters:** sampling settings change output quality a lot without touching the model. Judge a model by its loss, and pick sampling settings for the output you want.
 
-Links: [mini-gpt/step06_chat.py](https://github.com/Mohamedrasheq/mini-gpt/blob/main/step06_chat.py)
+Links: [mini-gpt/step06_chat.py](https://github.com/Mohamedrasheq/mini-gpt/blob/v1.1.0/step06_chat.py)

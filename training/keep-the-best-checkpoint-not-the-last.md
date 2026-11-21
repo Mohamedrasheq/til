@@ -18,4 +18,4 @@ else:
 
 **Why it matters:** the last ~65% of that run added nothing. Watch the gap between train and val: when train keeps falling and val turns up, you're paying for memorisation.
 
-Links: [mini-gpt/step05_gpt.py](https://github.com/Mohamedrasheq/mini-gpt/blob/main/step05_gpt.py)
+Links: [mini-gpt/step05_gpt.py](https://github.com/Mohamedrasheq/mini-gpt/blob/v1.1.0/step05_gpt.py)

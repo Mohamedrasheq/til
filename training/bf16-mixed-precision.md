@@ -20,4 +20,4 @@ bf16 has the same range as fp32, so unlike fp16 it needs no gradient scaler.
 
 **Why it matters:** "16-bit training" is a speed setting; the saved model is still full precision.
 
-Links: [PyTorch autocast](https://pytorch.org/docs/stable/amp.html), [mini-gpt/step10_train.py](https://github.com/Mohamedrasheq/mini-gpt/blob/main/step10_train.py)
+Links: [PyTorch autocast](https://pytorch.org/docs/stable/amp.html), [mini-gpt/step10_train.py](https://github.com/Mohamedrasheq/mini-gpt/blob/v1.1.0/step10_train.py)

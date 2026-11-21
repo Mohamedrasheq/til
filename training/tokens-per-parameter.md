@@ -19,4 +19,4 @@ Training compute is about `6 × parameters × tokens` FLOPs, so the same ratio a
 
 **Why it matters:** it turns "how much data?" into one number to pick, and it explains why a bigger model on the same data isn't always better.
 
-Links: [Chinchilla paper](https://arxiv.org/abs/2203.15556), [mini-gpt/step10_train.py](https://github.com/Mohamedrasheq/mini-gpt/blob/main/step10_train.py)
+Links: [Chinchilla paper](https://arxiv.org/abs/2203.15556), [mini-gpt/step10_train.py](https://github.com/Mohamedrasheq/mini-gpt/blob/v1.1.0/step10_train.py)

@@ -22,4 +22,4 @@ chars_per_token = sum(n * len(c) for c, n in counts.items()) / sum(n * len(tok.e
 
 **Why it matters:** vocabulary size follows the variety of words in the data, not the amount of data. Ten times more stories would still fit in 4K tokens; adult text needs more.
 
-Links: [mini-gpt/step10_fineweb_check.py](https://github.com/Mohamedrasheq/mini-gpt/blob/main/step10_fineweb_check.py)
+Links: [mini-gpt/step10_fineweb_check.py](https://github.com/Mohamedrasheq/mini-gpt/blob/v1.1.0/step10_fineweb_check.py)

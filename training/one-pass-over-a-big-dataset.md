@@ -16,4 +16,4 @@ Train and val moved together for the whole run (1.355 vs 1.368 at the end), and 
 
 **Why it matters:** overfitting is a data problem more than a model problem. When the model sees each example once, the val curve is an honest view of how it will do on new text.
 
-Links: [mini-gpt/step05_gpt.py](https://github.com/Mohamedrasheq/mini-gpt/blob/main/step05_gpt.py)
+Links: [mini-gpt/step05_gpt.py](https://github.com/Mohamedrasheq/mini-gpt/blob/v1.1.0/step05_gpt.py)

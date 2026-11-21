@@ -20,4 +20,4 @@ For the gap, I counted speaker names. 62% of test speeches belonged to character
 
 **Why it matters:** a fixed full pass gives a number you can quote. When test and val disagree, look at what's in each split before blaming the model.
 
-Links: [mini-gpt/step06_evaluate.py](https://github.com/Mohamedrasheq/mini-gpt/blob/main/step06_evaluate.py)
+Links: [mini-gpt/step06_evaluate.py](https://github.com/Mohamedrasheq/mini-gpt/blob/v1.1.0/step06_evaluate.py)

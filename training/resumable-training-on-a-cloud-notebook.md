@@ -30,4 +30,4 @@ runtime.unassign()                 # stop the runtime (and the billing) when tra
 
 **Why it matters:** the worst case after a disconnect becomes "lose a few minutes and re-run four cells", not "start again".
 
-Links: [mini-gpt/step10_colab.ipynb](https://github.com/Mohamedrasheq/mini-gpt/blob/main/step10_colab.ipynb)
+Links: [mini-gpt/step10_colab.ipynb](https://github.com/Mohamedrasheq/mini-gpt/blob/v1.1.0/step10_colab.ipynb)

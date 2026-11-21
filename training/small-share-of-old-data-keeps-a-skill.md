@@ -14,4 +14,4 @@ TinyStories test loss per character: 0.342 for the stories-only model, 0.397 for
 
 **Why it matters:** a small slice of the old data is a cheap insurance policy when you change the main training set.
 
-Links: [mini-gpt/step10_train.py](https://github.com/Mohamedrasheq/mini-gpt/blob/main/step10_train.py)
+Links: [mini-gpt/step10_train.py](https://github.com/Mohamedrasheq/mini-gpt/blob/v1.1.0/step10_train.py)

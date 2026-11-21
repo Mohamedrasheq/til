@@ -21,4 +21,4 @@ Memory stays flat, every core stays busy, and the output order is kept.
 
 **Why it matters:** with a big generator as input, "lazy" `imap` isn't lazy on the input side. Bounding the batch is a two-line fix.
 
-Links: [mini-gpt/step10b_data.py](https://github.com/Mohamedrasheq/mini-gpt/blob/main/step10b_data.py)
+Links: [mini-gpt/step10b_data.py](https://github.com/Mohamedrasheq/mini-gpt/blob/v1.1.0/step10b_data.py)

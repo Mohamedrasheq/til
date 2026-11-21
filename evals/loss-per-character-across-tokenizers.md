@@ -15,4 +15,4 @@ On the same 5,000 held-out web pages: model 6 (stories only) 2.030 per character
 
 **Why it matters:** any time the tokenizer changes between runs, per-token loss stops being a fair yardstick. Per character (or per byte) still is.
 
-Links: [mini-gpt/step09c_benchmarks.py](https://github.com/Mohamedrasheq/mini-gpt/blob/main/step09c_benchmarks.py)
+Links: [mini-gpt/step09c_benchmarks.py](https://github.com/Mohamedrasheq/mini-gpt/blob/v1.1.0/step09c_benchmarks.py)
