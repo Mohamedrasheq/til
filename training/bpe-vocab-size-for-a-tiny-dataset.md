@@ -22,4 +22,4 @@ for size in (512, 1024, 2048):
 
 **Why it matters:** vocabulary size should fit the data, not copy a big model. Pre-splitting text into words before learning joins also stops a piece from spanning two words.
 
-Links: [mini-gpt/step07_bpe_tokenizer.py](https://github.com/Mohamedrasheq/mini-gpt/blob/main/step07_bpe_tokenizer.py)
+Links: [mini-gpt/step07_bpe_tokenizer.py](https://github.com/Mohamedrasheq/mini-gpt/blob/v1.1.0/step07_bpe_tokenizer.py)

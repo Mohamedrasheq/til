@@ -24,4 +24,4 @@ Learning 4,096 tokens took 4 seconds, and encoding all 2.2 GB into 558M tokens t
 
 **Why it matters:** simple text has few unique words, so caching per word makes encoding almost free. You don't need a Rust tokenizer to work with a few gigabytes.
 
-Links: [mini-gpt/step08_tinystories_tokenizer.py](https://github.com/Mohamedrasheq/mini-gpt/blob/main/step08_tinystories_tokenizer.py)
+Links: [mini-gpt/step08_tinystories_tokenizer.py](https://github.com/Mohamedrasheq/mini-gpt/blob/v1.1.0/step08_tinystories_tokenizer.py)

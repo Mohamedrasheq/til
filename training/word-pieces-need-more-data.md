@@ -15,4 +15,4 @@ On that scale, BPE lost: test 1.628 per character vs 1.536 for characters. The r
 
 **Why it matters:** a bigger vocabulary shortens the text, which also shrinks the number of training examples. On a small dataset, characters can win; word pieces pay off once there's plenty of text.
 
-Links: [mini-gpt/step07_bpe_tokenizer.py](https://github.com/Mohamedrasheq/mini-gpt/blob/main/step07_bpe_tokenizer.py)
+Links: [mini-gpt/step07_bpe_tokenizer.py](https://github.com/Mohamedrasheq/mini-gpt/blob/v1.1.0/step07_bpe_tokenizer.py)

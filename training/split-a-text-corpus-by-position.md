@@ -20,4 +20,4 @@ The character list (vocabulary) is also built from train only, so nothing about 
 
 **Why it matters:** with text data, "random" isn't the same as "unseen". Contiguous blocks give an honest score, and test even ends up as mostly a different play.
 
-Links: [mini-gpt/step01_prepare_data.py](https://github.com/Mohamedrasheq/mini-gpt/blob/main/step01_prepare_data.py)
+Links: [mini-gpt/step01_prepare_data.py](https://github.com/Mohamedrasheq/mini-gpt/blob/v1.1.0/step01_prepare_data.py)
