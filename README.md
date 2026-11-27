@@ -5,15 +5,15 @@ Short notes on things I figure out while building with LLMs: agents, tool callin
 Each note is one small finding: the problem, the fix and a snippet. This README is rebuilt automatically on every push.
 
 <!-- index starts -->
-**56 notes so far.**
+**65 notes so far.**
 
 ## Most recent
 
-- [A training run on a cloud notebook that survives a disconnect](training/resumable-training-on-a-cloud-notebook.md) · training · 2026-11-21
-- [A 10% share of the old data keeps the old skill](training/small-share-of-old-data-keeps-a-skill.md) · training · 2026-11-21
-- [Comparing loss across models with different tokenizers](evals/loss-per-character-across-tokenizers.md) · evals · 2026-11-20
-- [Testing a language model's grammar with minimal pairs](evals/minimal-pairs-grammar-test.md) · evals · 2026-11-20
-- [Scoring a base model on multiple-choice tests without generating text](evals/multiple-choice-by-log-prob.md) · evals · 2026-11-20
+- [Finding test receipts that also sit in train, without downloading the images](evals/finding-test-leaks-from-the-zip-index.md) · evals · 2026-11-27
+- [Not printed on the receipt means empty, never a guess](extraction/not-printed-means-empty.md) · extraction · 2026-11-26
+- [Hand-made label fixes that fail loudly when they go stale](fine-tuning/label-fixes-that-fail-loudly.md) · fine-tuning · 2026-11-26
+- [Most "model mistakes" were label mistakes](evals/check-the-image-before-blaming-the-model.md) · evals · 2026-11-25
+- [Long answers loop, and a bigger answer limit doesn't fix it](evals/loop-guard-for-cut-off-answers.md) · evals · 2026-11-25
 
 ## agents
 
@@ -36,11 +36,16 @@ Each note is one small finding: the problem, the fix and a snippet. This README 
 - [Comparing loss across models with different tokenizers](evals/loss-per-character-across-tokenizers.md) · 2026-11-20
 - [Testing a language model's grammar with minimal pairs](evals/minimal-pairs-grammar-test.md) · 2026-11-20
 - [Scoring a base model on multiple-choice tests without generating text](evals/multiple-choice-by-log-prob.md) · 2026-11-20
+- [Scoring untrained models first, on the same test](evals/untrained-baselines-on-the-same-test.md) · 2026-11-24
+- [Most "model mistakes" were label mistakes](evals/check-the-image-before-blaming-the-model.md) · 2026-11-25
+- [Long answers loop, and a bigger answer limit doesn't fix it](evals/loop-guard-for-cut-off-answers.md) · 2026-11-25
+- [Finding test receipts that also sit in train, without downloading the images](evals/finding-test-leaks-from-the-zip-index.md) · 2026-11-27
 
 ## extraction
 
 - [Sending low-confidence fields to human review instead of guessing](extraction/human-review-for-low-confidence-fields.md) · 2025
 - [Schema-driven extraction with a confidence score per field](extraction/schema-extraction-with-confidence.md) · 2025
+- [Not printed on the receipt means empty, never a guess](extraction/not-printed-means-empty.md) · 2026-11-26
 
 ## fine-tuning
 
@@ -49,6 +54,8 @@ Each note is one small finding: the problem, the fix and a snippet. This README 
 - [Freezing the validation and test sets between training runs](fine-tuning/freeze-val-and-test-between-runs.md) · 2026-11-16
 - [Masking links made my scam detector blind to fake domains](fine-tuning/masking-can-hide-the-clue.md) · 2026-11-16
 - [Synthetic data teaches, real data judges](fine-tuning/synthetic-data-for-training-only.md) · 2026-11-16
+- [Checking that the model only learns the answer](fine-tuning/check-the-answer-mask.md) · 2026-11-24
+- [Hand-made label fixes that fail loudly when they go stale](fine-tuning/label-fixes-that-fail-loudly.md) · 2026-11-26
 
 ## rag
 
@@ -64,6 +71,7 @@ Each note is one small finding: the problem, the fix and a snippet. This README 
 - [Prompt-tuning a smaller open model against a commercial baseline](self-hosting/prompt-tuning-open-models.md) · 2025
 - [Scale-to-zero serverless GPU: living with cold starts](self-hosting/scale-to-zero-serverless-gpu.md) · 2025
 - [Getting reliable JSON out of a self-hosted model on vLLM](self-hosting/structured-json-from-vllm.md) · 2025
+- [A one-off training run on Hugging Face Jobs with a hard stop](self-hosting/one-off-training-on-hugging-face-jobs.md) · 2026-11-24
 
 ## training
 
@@ -91,6 +99,7 @@ Each note is one small finding: the problem, the fix and a snippet. This README 
 - [Pose estimation in the browser vs on a serverless GPU](vision/pose-in-the-browser-vs-gpu.md) · 2025
 - [Locking onto one person with re-identification tracking](vision/reid-tracking-in-multi-person-video.md) · 2025
 - [Turning vision metrics into a structured, safety-checked LLM report](vision/structured-llm-reports-from-vision-metrics.md) · 2025
+- [A pixel budget instead of a fixed size for receipt images](vision/pixel-budget-for-tall-receipts.md) · 2026-11-23
 
 ## voice
 
